@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 36px;
+    color: #676767;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Container*/
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/*Header*/
+
+.header {
+    width: 100%;
+}
+
+.header__iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+}
+
+.logo {
+    display: block;
+}
+
+.logo__img {
+    display: block;
+}
+/*Menu*/
+
+.nav-link {
+    display: inline-block;
+    margin-left: 48px;
+    color: #676767;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Segoe WP";
+    transition: background .2s linear;
+}
+
+.nav-link:last-child {
+    margin-left: 30px;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 2px;
+    color: white;
+    background-image: linear-gradient(0deg, #1f84e7 0%, #37b3f8 100%);
+    border: 1px solid #1784d1;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: darkblue;
+}
+
+/*Intro*/
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 540px;
+    background: url("../images/bkgr.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intro__inner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.intro__title {
+    font-family: "Segoe WP";
+    font-size: 52px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.intro__subtitle {
+    font-family: "Segoe WP";
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+.intro__btn {
+    display: inline-block;
+    width: 274px;
+    height: 58px;
+    border-radius: 4px;
+    text-align: center;
+    background-image: linear-gradient(0deg, #34ad22 0%, #6ed158 100%);
+    font-size: 34px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Segoe WP";
+    margin-bottom: 10px;
+
+    border: 1px solid #4e95bc;
+    box-shadow: 0 0 0 8px rgba(0,0,0, 0.12);
+}
+
+/*Section*/
+
+.section {
+    width: 100%;
+    /*height: 600px;*/
+    background-size: cover;
+    position: relative;
+    background-color: #ececec;
+}
+
+.block1 {
+    position: absolute;
+    width: 490px;
+    height: 245px;
+    background: white;
+    top: 0;
+    left: 50%;
+    margin-top: 23px;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    box-shadow: inset 0px -8px 0px 0px #51c03d;
+}
+
+.block1__title {
+    font-size: 22px;
+    color: #868686;
+    font-weight: 300;
+    font-family: "Segoe WP";
+    text-align: center;
+    padding: 20px 0 25px 0;
+}
+
+.place {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+
+.place__item {
+    width: 20%;
+    padding: 0 4px;
+    margin-bottom: 5px;
+}
+
+.place__pct {
+    display: block;
+    margin: 0 auto;
+}
+
+.place__text {
+    font-size: 14px;
+    color: #929292;
+    font-weight: 300;
+    font-family: "Segoe WP";
+    padding-left: 2px;
+    line-height: 20px;
+}
+
+.block2 {
+    padding-top: 200px;
+    line-height: 34px;
+    color: #7e7c7c;
+    font-weight: 300;
+    text-align: center;
+    font-family: "Segoe WP";
+    font-weight: 300;
+}
+
+.block2__title{
+    font-size: 26px;
+}
+
+.block2__subtitle {
+    font-size: 22px;
+}
+
+.block3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.block3__item{
+    padding: 0 30px 0;
+    text-align: center;
+}
+
+.block3__photo{
+    display: block;
+    margin-bottom: 10px;
+}
+.block3__text {
+    font-size: 20px;
+    line-height: 34px;
+    color: #7e7c7c;
+    font-weight: 300;
+    font-family: "Segoe WP";
+    padding-bottom: 60px;
+}
+
+.footer {
+    background-color: #414141;
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: 14px;
+    color: #797979;
+    font-weight: 300;
+    font-family: "Segoe WP";
+    line-height: 22px;
+}
