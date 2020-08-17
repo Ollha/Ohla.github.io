@@ -165,7 +165,7 @@ a {
 .place {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 20px;
+    margin: 0 20px 20px;
 }
 
 .place__item {
@@ -206,20 +206,22 @@ a {
     font-size: 22px;
 }
 
+/*Block3*/
+
 .block3 {
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 45px;
 }
 
 .block3__item{
-    padding-right: 30px;
     width: 20%;
     text-align: center;
 }
 
 .block3__photo{
-    display: block;
+    display: inline-block;
     margin-bottom: 10px;
 }
 .block3__text {
@@ -249,25 +251,52 @@ a {
 @media (max-width: 991px) {
 
     .intro__title{
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .intro__subtitle{
-        font-size: 24px;
+        font-size: 28px;
+    }
+
+    .intro__btn{
+        width: 50%;
+        height: auto;
+        word-wrap: break-word
     }
 
     .block1{
         width: 100%;
     }
 
-    .block1__title{
+    .block2__title{
+        font-size: 20px;
+    }
+
+    .block2__subtitle{
         font-size: 16px;
     }
 
-    .block3{
+    .block1__title{
+        font-size: 20px;
+    }
+
+    .block3__item{
         width: 100%;
     }
 
+    .block3__photo{
+        width: 97%;
+        height: auto;
+    }
+
+    .block3__text{
+        font-size: 15px;
+    }
+
+
+    .place__item{
+        overflow: hidden;
+    }
     .nav{
         display: none;
     }
